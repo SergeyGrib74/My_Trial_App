@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#983F51B5"
+    android:background="#229C2A"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Привет, Ми мир!!!"
+        android:text="Привет, Мир!!!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -30,20 +30,11 @@
         app:layout_constraintStart_toStartOf="@+id/textView" />
 
     <RadioGroup
-        android:id="@+id/radioGroup"
         android:layout_width="82dp"
         android:layout_height="151dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="182dp"
-        tools:layout_editor_absoluteY="199dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
