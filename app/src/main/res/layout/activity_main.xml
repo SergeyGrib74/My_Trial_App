@@ -24,7 +24,7 @@
         android:layout_marginBottom="100dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Привязанный текст"
+        android:text="пробую перенести"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/textView" />
 
